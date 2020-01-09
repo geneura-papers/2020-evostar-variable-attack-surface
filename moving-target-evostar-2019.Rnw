@@ -21,23 +21,19 @@ data <- read.csv("results/all_results.csv")
 
  \author{A\inst{1}
  \and
- B\inst{1}
- \and
- C\inst{1}
- \and
- D\inst{2}
+ Juan-J. Merelo-Guervós\inst{2}
 }
 
 \institute{%
    University Z\\
    \email{an@ema.il}
 \and
-   University Y\\
-   \email{another@ema.il}
+   University of Granada (Spain)\\
+   \email{jmerelo@ugr.es}
 }
 
-%\authorrunning{Merelo et al.}
-%\titlerunning{Using evolutionary algorithms for server hardening via the moving target defense technique}
+\authorrunning{Serrano and Merelo}
+\titlerunning{Using evolutionary algorithms for server hardening via the moving target defense technique}
 
 \maketitle
 
