@@ -20,6 +20,8 @@ data <- read.csv("results/all_results.csv")
 \title{Using evolutionary algorithms for server hardening via the moving target defense technique}
 
  \author{A\inst{1}
+  \and
+ Pedro A. Castillo\inst{2}
  \and
  Juan-J. Merelo-Guervós\inst{2}
 }
@@ -29,7 +31,7 @@ data <- read.csv("results/all_results.csv")
    \email{an@ema.il}
 \and
    University of Granada (Spain)\\
-   \email{jmerelo@ugr.es}
+   \email{(pacv|jmerelo)@ugr.es}
 }
 
 \authorrunning{Serrano and Merelo}
