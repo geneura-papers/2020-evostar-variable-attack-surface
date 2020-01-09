@@ -516,7 +516,9 @@ python3 genetic.py --individuals {16|32|64}
 
 For the two different payloads we use, we need to change one line in
 the {\tt genetic.py} code. This code, as well as the final results of
-every experiment, are available in GitHub and are in fact included in
+every experiment, are available from the GitHub repository
+\url{https://github.com/geneura-papers/2020-evostar-variable-attack-surface}
+and are in fact included in
 the same repository as this paper, and processed as part of the source
 of this paper.
 
@@ -708,11 +710,8 @@ something that can be done immediately, and will be one of our next steps.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Acknowledgements}
 
-%   This paper has been supported in part by projects DeepBio (TIN2017-85727-C4-2-P) and AMED (co-funded by European Regional Development Fund and the region Normandy).
+This paper has been supported in part by projects DeepBio (TIN2017-85727-C4-2-P).
 
-Acks\\
-Taking\\
-This much space
 
 \bibliographystyle{splncs04}
 \bibliography{geneura,moving-target}
