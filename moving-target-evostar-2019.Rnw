@@ -34,7 +34,7 @@ data <- read.csv("results/all_results.csv")
    \email{(pacv|jmerelo)@ugr.es}
 }
 
-\authorrunning{Serrano and Merelo}
+\authorrunning{Serrano et al.}
 \titlerunning{Using evolutionary algorithms for server hardening via the moving target defense technique}
 
 \maketitle
@@ -598,7 +598,7 @@ crossover, so this might be a combination that, in a few cases, is
 able to obtain better results. The transparency of the points, which
 is related to time, only seems to depend on the population, that is,
 it is equivalent only to the number of evaluations. Better results, in
-fact, do no need more time.
+fact, do not need more time.
 
 It is also interesting to note the actual number of individuals found
 in every run, which is inversely proportional to the vulnerability
