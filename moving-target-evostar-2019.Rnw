@@ -494,7 +494,7 @@ the reason of running each population size in different EC2
 instances. The running time of all instances was 266 hours, equivalent
 to 11 days of total processing time, having a total cost of \$11.07.
 
-A set of experiments has been carried out with the static site and the juice shop. These have been the parameters that have varied \begin{itemize}
+A set of experiments has been carried out with the static site and the juice shop. These have been the parameters that have been varied \begin{itemize}
 \item Mutation is either {\sf random} or {\sf one}. In the first case, the selected configuration variable is changed by another random value. In the second case, one is added or subtracted from its value.
 \item Crossover uses either one or two points.
 \item Population goes from 16 to 64 in the case of the static web site, it stops at 32 in the juice shop.
@@ -580,7 +580,7 @@ ggplot(data.web, aes(x=Population,y=Fitness,color=Crossover,shape=Mutation, size
 \label{fig:zap:static}
 \end{figure*}
 %
-Figure \ref{fig:zap:static}, charts the results for the static
+Figure \ref{fig:zap:static} charts the results for the static
 website, representing the ZAP vulnerability score as $y$ axis and the
 population as $x$ axis. We need to assess the influence of this
 parameter in the final result; but at the same time we need to
@@ -602,7 +602,7 @@ in every run, which is inversely proportional to the vulnerability
 levels that have been reached: while with ZAP=11 all individuals in
 the population have the same value, if the level is equal to 3 a very
 small proportion of the population has the same value. This might
-indicate the need to run the evolutionary algorithm for longer.
+indicate the need to run the evolutionary algorithm for more generations.
 
 We will examine the next experiment, using the more complicated Juice
 Shop, to confirm or dismiss these results. These results are charted
@@ -619,7 +619,7 @@ ggplot(data.juice, aes(x=Population,y=Fitness,color=Crossover,shape=Mutation, si
 \caption{Scatter plot for OWASP ZAP scores for every experiment with the
   Juice Shop site. ``Copies'' is the proportion of the population with
 the same ZAP score as the best; 10.0 indicates that the whole
-population has the same low vulnerability score (proportion equal to 1). Jittering is using to make the different results visible.}
+population has the same low vulnerability score (proportion equal to 1). Jittering is used to make the different results visible.}
 \label{fig:zap:juice}
 \end{figure*}
 
