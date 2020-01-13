@@ -533,8 +533,7 @@ These results will be analyzed next.
 ggplot(data,aes(x=Population,y=Days,color=Web)) + geom_point()+ theme_tufte()
 @
 \caption{Scatter plot representing the time, in days, it has taken for
-each experiment to be completed. Juice shop experiments were only
-completed up to a population of 32.}
+each experiment to be completed. Juice shop experiments were completed for populations = 16 and 32 individuals.}
 \label{fig:time}
 \end{figure*}
 %
