@@ -341,8 +341,8 @@ results will be presented last in Subsection \ref{subs:results}.
 
 There is a huge number parameters that could potentially be chosen for
 our experiments so to validate our hypothesis we choose a subset of 9
-{\sf nginx} directives (\ref{table:nginx_directives}) and 6 HTTP headers
-(\ref{table:http_headers}), all of them related to security
+{\sf nginx} directives (Table \ref{table:nginx_directives}) and 6 HTTP headers
+(Table \ref{table:http_headers}), all of them related to security
 hardening. The subset is extracted from the DISA STIG recommendations
 for hardening webservers based in the CVSS score. Most of this values
 are defined as Apache HTTP server configuration values but have a
@@ -363,8 +363,8 @@ V-13736 & client\_max\_body\_size        & 512 - 2048 \\ \hline
 V-6724  & server\_tokens                 & True/False \\ \hline
         & gzip                           & True/False \\ \hline
 \end{tabular}
+\caption{Selected {\sf nginx} directives list.}
 \label{table:nginx_directives}
-\caption{Selected {\sf nginx} directives list}
 \end{table}
 %
 
@@ -408,8 +408,8 @@ X-XSS-Protection	           & \shortstack[l]{0 \\ 1 \\ 1; mode=block} \\ \hline
 Content-Security-Policy		   & \shortstack[l]{default-src 'self' \\ default-src 'none' \\ default-src 'host *.google.com'} \\ \hline
 
 \end{tabular}
+\caption{Selected HTTP headers list.}
 \label{table:http_headers}
-\caption{Selected HTTP headers list}
 \end{table}
 %
 The web servers also send a number of headers, which can be configured
