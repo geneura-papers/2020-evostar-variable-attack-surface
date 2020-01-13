@@ -29,7 +29,7 @@ data <- read.csv("results/all_results.csv")
 
 \institute{%
    University of Granada (Spain)\\
-   \email{(info@ernesto.es|pacv@ugr.es}|jmerelo@ugr.es})}
+   \email{info@ernesto.es,pacv@ugr.es,jmerelo@ugr.es}
 }
 
 \authorrunning{Serrano et al.}
