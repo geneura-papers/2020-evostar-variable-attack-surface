@@ -268,7 +268,7 @@ mechanism that uses different cloud instances and mechanism for moving
 virtual machines between them is proposed; still, no specific
 mechanism was proposed to establish these configurations.
 Although most of the effort is devoted to creating a MTD for servers,
-it can also be applied to software defined networks \cite{al2011toward}.
+it can also be applied to software defined networks (SDNs) \cite{al2011toward}.
 
 After the early {\em bioinspired} approaches to MTD, explicit
 solutions using evolutionary algorithms were conceptually described for the first
@@ -297,7 +297,7 @@ solutions to these two problems.
 
 
 MTD can also be applied at a network level. Makanju et al applied
-evolutionary algorithms in e defined networks by Champagne et al. in
+evolutionary algorithms in software defined networks by Champagne et al. in
 \cite{Makanju:2017:ECM:3067695.3075604}. In this case the SDN have to
 respect the service level agreements, and a fitness function that
 takes into account the adaptation of the SDN to the environment. This work was continued by
