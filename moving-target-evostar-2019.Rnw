@@ -20,11 +20,11 @@ data <- read.csv("results/all_results.csv")
 \title{Using evolutionary algorithms for server hardening via the moving target defense technique}
 
  \author{
-  Ernesto Serrano Collado\inst{1}
+  Ernesto Serrano Collado
   \and
- Pedro A. Castillo\inst{1}
+ Pedro A. Castillo
  \and
- Juan-J. Merelo-Guervós\inst{1}
+ Juan-J. Merelo-Guervós
 }
 
 \institute{%
