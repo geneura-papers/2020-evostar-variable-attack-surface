@@ -21,7 +21,7 @@ for @files -> $f {
     my ($juice, $population, $crossover, $mutation) =
         ($<juice>, $<population>, $<crossover>, $<mutation>); # save before match
     my @final-pop = $f.slurp.split( / "final:" \s+ | \s+ "Elapsed" /);
-    #    say @final-pop[1];
+    say @final-pop[1];
     if !@final-pop[1] {
         say "$f is empty";
         exit(1);
