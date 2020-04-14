@@ -5,7 +5,10 @@ data <- read.csv("results/all_results.csv")
 
 
 ## ----results-time,cache=FALSE,echo=FALSE--------------------------------------
-ggplot(data,aes(x=Population,y=Days,color=Web)) + geom_point()+ theme_tufte()
+ggplot(data,aes(x=Population,y=Days,color=Web)) + geom_tufteboxplot()+ theme_tufte()
+
+ggplot(data,aes(x=Population,y=Copies,color=Web)) + geom_point()+geom_jitter()+ theme_tufte()
+
 
 
 ## ----results-static,cache=FALSE,echo=FALSE------------------------------------
